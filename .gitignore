@@ -1,0 +1,72 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.env
+.venv
+env/
+python_env/
+my_env/
+
+# Config and credentials
+config.json
+*.pem
+*.key
+*.env
+
+# Log files
+*.log
+logs/
+discord_bot.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.classpath
+
+# Bot specific
+discord_bot_personality.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+wheels/
+MANIFEST
+
+# Keys / local secrets
+api_key.txt
+api_key.json
+api_key.yamlA
+DEFAULT_PERSONALITY.json
+DISCORD_BOT_TOKEN.json
+OPENAI_API_KEY.json
